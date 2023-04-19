@@ -73,7 +73,7 @@ function goToNext() {
 
 <style lang="scss" scoped>
 .question-root {
-    width: 100%;
+    width: calc(100% - 20px);
     height: 100%;
     border: solid black 1px;
     padding: 10px 10px;
