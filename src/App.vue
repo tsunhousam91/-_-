@@ -66,7 +66,7 @@ function answerFunction_Q4(inputArray: Array<string>) {
   let friendHands: string = inputArray[0];
   let myHands: string = '';
   for (var i: number = 0; i <= friendHands.length; i++) {
-    if (i < 99) {
+    if (i < 19) {
       myHands += friendHands[i];
       continue;
     }
